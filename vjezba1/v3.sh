@@ -1,9 +1,12 @@
 echo "Nekoliko nacina kako doci do home dira, trenutno logovanog korisnika"
 
 echo "prvi nacin "
- ~
+cd ~
+pwd
 echo "drugi nacin"
-/home/$USER
+cd /home/$USER
+pwd
 echo "treci nacin"
- $HOME
+cd $HOME
+pwd
 
