@@ -26,5 +26,17 @@ echo "Primjer 6 + 7 / 3"
 echo "Rezultat: "
 expr 6 + 7 / 3
 
+echo "Komanda expr ne prepoznaje zagrade, zbog cega morate manuelnim putem da prevazidjete pravo prvenstva, ukoliko za tim postoji potreba."
+echo "Za izmjenu prava prvenstva mozete da koristite back znakove navoda, na sljedeci nacin: "
+echo "Primjer int ='expr 5 + 7' "
+echo "expr int / 3"
+echo "Rezultat: "
+int=`expr 6 + 7`
+expr $int / 3
+
+echo "Ili mozete da koristite direktniji put: "
+echo "Primjer expr 'expr 6 + 7' / 3"
+echo "Rezultat: "
+expr `expr 6 + 7` / 3
 
 
