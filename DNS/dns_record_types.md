@@ -12,4 +12,5 @@ Resource records:
 
 4) NS (Name server record) - Delegates a DNS zone to use the given authoritative name servers.
 
+5) TXT (Text record) - If we want to set the human-readable text in DNS record.
 
